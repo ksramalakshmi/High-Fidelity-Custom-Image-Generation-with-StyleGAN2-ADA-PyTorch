@@ -2,7 +2,6 @@
 
 This project implements a pipeline for custom image generation and editing using generative models. The primary dataset consists of bicycle CAD designs. The goal of this project was to explore the implementation and workflow of image generation and editing rather than optimizing for final output quality or GAN metrics.
 
----
 
 ## 🚴‍♂️ Project Overview
 
@@ -10,7 +9,6 @@ This project implements a pipeline for custom image generation and editing using
 - **Focus:** Understand the working of StyleGAN2-ADA from scratch and integrate it with powerful image editing models.
 - **Dataset:** Open-source dataset of bicycle CAD designs.
 
----
 
 ## 🔧 Repositories Used
 
@@ -22,7 +20,6 @@ This project implements a pipeline for custom image generation and editing using
 - Training proceeded smoothly until around the 80th tick, where **mode collapse** was observed.
 - **Note:** Model quality was considered sufficient for downstream tasks. No further fine-tuning or metric optimization was pursued as the focus was on workflow understanding.
 
----
 
 ### ✏️ Image Editing Models
 
@@ -37,7 +34,6 @@ This project implements a pipeline for custom image generation and editing using
 - Results were **less consistent and less realistic** compared to InstructPix2Pix.
 - Included for experimentation and comparative analysis.
 
----
 
 ## ✅ Results
 
@@ -45,7 +41,6 @@ This project implements a pipeline for custom image generation and editing using
 - **Image Editing:** InstructPix2Pix showed superior performance in prompt-guided editing.
 - **ControlNet:** Included but did not outperform InstructPix2Pix in this use case.
 
----
 
 ## 🚀 Future Work
 
@@ -53,15 +48,12 @@ This project implements a pipeline for custom image generation and editing using
 - Improve training loop to avoid mode collapse (e.g., better augmentations, restart strategies).
 - Explore newer diffusion models or LoRA fine-tuning for domain-specific prompt alignment.
 
----
 
 ## 🤝 Acknowledgements
 
 - [NVlabs/StyleGAN2-ADA-PyTorch](https://github.com/NVlabs/stylegan2-ada-pytorch)
 - [Tim Brooks' InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix)
 - [ControlNet by lllyasviel](https://github.com/lllyasviel/ControlNet)
-
----
 
 ## 📬 Contact
 
